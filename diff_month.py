@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+def diff_month(d1, d2):
+    return (d1.year - d2.year) * 12 + d1.month - d2.month
+
